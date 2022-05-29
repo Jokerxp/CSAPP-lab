@@ -1,0 +1,47 @@
+Function   Operation          Address   
+addval_110: 
+addval_113:
+addval_124:
+addval_184:
+addval_187:
+addval_190: movq %rsp, %rax   0x401a06
+addval_201: 
+addval_219: popq %rax         0x4019ab
+addval_273: movq %rax, %rdi   0x4019a2
+addval_358: movl %esp, %eax   0x401a86
+addval_404: 
+addval_436: movl %ecx, %esi   0x401a13
+addval_479: 
+addval_487: movl %eax, %edx   0x401a42
+addval_490: 
+
+setval_167: 
+setval_181: 
+setval_237: 
+setval_248: 
+setval_276: 
+setval_296: 
+setval_299: 
+setval_328: 
+setval_350: movq %rsp, %rax   0x401aad
+setval_384: 
+setval_424: 
+setval_426: movq %rax, %rdi   0x4019c5
+setval_450: 
+setval_470: 
+  
+getval_142: 
+getval_155: 
+getval_159: movl %edx, %ecx   0x401a34
+getval_169: 
+getval_226: 
+getval_272: 
+getval_280: popq %rax         0x4019cc
+getval_311: movl %edx, %ecx   0x401a69
+getval_345: 
+getval_472: 
+getval_481: popq %rsp         0x4019dc
+            movl %eax, %edx   0x4019dd
+
+add_xy:     lea (%rdi,%rsi,1), %rax  0x4019d6
+ 
